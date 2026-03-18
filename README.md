@@ -48,8 +48,8 @@ Right now it uses in-memory storage (no database), since this is a prototype.
 ---
 ## Running locally
 ### Frontend
-cd frontend
-npm install
+cd frontend \n
+npm install \n
 npm start
 ### Backend
 ```bash
