@@ -1,0 +1,116 @@
+/* 🌿 Base */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* 📦 Container */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* 🧊 Card */
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  margin: 20px auto;
+  width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ✨ Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* 🏫 Title */
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* 🔘 Buttons */
+button {
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+/* ⚡ Hover animation */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+}
+
+/* Secondary buttons */
+.secondary-btn {
+  background: #e2e8f0;
+  color: #111;
+}
+
+.secondary-btn:hover {
+  background: #cbd5f5;
+}
+
+/* 📊 Stats */
+.stats p {
+  margin: 6px 0;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+.stats p:hover {
+  color: #4f46e5;
+}
+
+/* 💡 Live insight */
+.live-insight {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+/* 🧠 Session insight */
+.session-insight {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+/* 📊 Chart container */
+.chart {
+  width: 260px;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f8fafc;
+}
+
+/* ✨ Input */
+input {
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+}
