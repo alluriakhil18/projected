@@ -47,12 +47,13 @@ Each session stores:
 Right now it uses in-memory storage (no database), since this is a prototype.
 ---
 ## Running locally
-### Frontend
-cd frontend \n
-npm install \n
-npm start
-### Backend
 ```bash
-cd backend
+### Frontend
+cd frontend 
+npm install 
+npm start
+
+### Backend
+xcd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
